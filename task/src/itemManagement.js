@@ -5,7 +5,7 @@ function ItemManagement() {
   const [items, setItems] = useState([]);
   const [newItem, setNewItem] = useState("");
   const [editItem, setEditItem] = useState({});
-  const apiUrl = "http://localhost:5001/products"; // Replace with your API URL
+  const apiUrl = "http://localhost:5001/products"; 
 
   const fetchItems = async () => {
     try {
