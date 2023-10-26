@@ -1,0 +1,89 @@
+.item-management-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+}
+
+ul {
+      list-style: none;
+      padding: 0;
+}
+
+li {
+      margin: 8px 0;
+}
+
+.item-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 8px 0;
+}
+
+.item {
+      flex-grow: 1;
+}
+
+.button-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 8px;
+}
+
+.add-button {
+      margin-left: 10px;
+      background-color: #3cc2e7;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+}
+
+.edit-button,
+.save-button {
+      background-color: #3cc2e7;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 4px 0;
+}
+
+.delete-button,
+.cancel-button {
+      background-color: #e74c3c;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 4px 0;
+}
+
+.save-button {
+      background-color: #2ecc71;
+}
+
+.cancel-button {
+      background-color: #e74c3c;
+}
+
+input {
+      border: 1px solid #3498db;
+      border-radius: 5px;
+      padding: 10px;
+      margin-top: 8px;
+}
+
+.editing-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+}
